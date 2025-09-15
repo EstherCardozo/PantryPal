@@ -1,0 +1,51 @@
+{
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pantrypal-b40e5",
+          "appId": "1:245579848431:android:2b5b339f819ed7497d191a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "pantrypal-b40e5",
+          "appId": "1:245579848431:ios:b69701b2711d02c77d191a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pantrypal-b40e5",
+          "configurations": {
+            "android": "1:245579848431:android:2b5b339f819ed7497d191a",
+            "ios": "1:245579848431:ios:b69701b2711d02c77d191a",
+            "web": "1:245579848431:web:9bc77d5933feb0907d191a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
