@@ -148,10 +148,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact 📧
 
-For any queries or suggestions contanct tanishullas04@gmail.com
+For any queries or suggestions contanct esthercardozo12345@gmail.com
 
 ## Acknowledgments 🙏
 
 - OpenFoodFacts API for product database
 - Firebase for backend services
 - Flutter team for the amazing framework
+
